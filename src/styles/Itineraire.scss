@@ -1,0 +1,31 @@
+.itineraire {
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    label {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  button {
+    padding: 10px;
+    background-color: $primary-color;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: $secondary-color;
+    }
+  }
+
+  .results {
+    margin-top: 20px;
+    p {
+      margin: 5px 0;
+    }
+  }
+}

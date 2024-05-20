@@ -1,0 +1,35 @@
+.planning {
+  padding: 20px;
+
+  h1 {
+    color: $primary-color;
+  }
+
+  .day-planning {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+    h2 {
+      color: $secondary-color;
+    }
+
+    .planning-period {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      label {
+        display: flex;
+        flex-direction: column;
+      }
+
+      input {
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+    }
+  }
+}

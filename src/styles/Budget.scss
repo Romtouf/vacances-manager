@@ -1,0 +1,35 @@
+.budget {
+  padding: 20px;
+
+  h1,
+  h2 {
+    color: $primary-color;
+  }
+
+  .budget-section {
+    margin-bottom: 20px;
+
+    label {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 10px;
+
+      input {
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+    }
+  }
+
+  .budget-total {
+    h2 {
+      color: $secondary-color;
+    }
+
+    p {
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+  }
+}
